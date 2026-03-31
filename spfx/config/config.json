@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "grant-access-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/grantAccess/GrantAccessCommandSet.js",
+          "manifest": "./src/extensions/grantAccess/GrantAccessCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {}
+}
